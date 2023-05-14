@@ -1,0 +1,118 @@
+/*style.css */
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+
+body {
+    background-color: #FA9884;
+    color: #19A7CE;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    color: #0A4D68;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+}
+
+.temperature-converter {
+    background: #FFE5CA;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 20px;
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+}
+
+.result {
+    text-align: center;
+    margin: 20px 0;
+    color: #454545;
+
+}
+
+.result-heading {
+    color: #686D76;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+
+.celsius-value {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+}
+
+label {
+    color: #454545;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border: 1px solid #4c49f3;
+}
+
+.degree-type {
+    display:flexbox;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-family: fantasy;
+}
+
+.degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+option {
+    background-color: #FA9884;
+    color: #f6f6f6;
+}
+
+#convert-btn {
+    background: linear-gradient(to bottom, #E06469, #C9A7EB);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #f6f6f6;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+}
+
+#convert-btn:hover {
+    background: linear-gradient(to bottom, #4a47e7, #322fda);
+}
